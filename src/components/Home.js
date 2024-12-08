@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className="App">
 `     <div className="add-to-cart">
-        <img src="https://img.icons8.com/?size=50&id=23169&format=png" />
+        <img src="https://img.icons8.com/?size=50&id=23175&format=png" />
        </div>`
 
       <h2>Home Component</h2>
