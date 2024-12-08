@@ -40,7 +40,7 @@
   width: 50px;
   margin-top: -10px;;
 }
-.cart-wrapper{
+.cart-wrapper {
   height: 100px;
     width: 500px;
     border: 1px solid #ccc;
@@ -50,16 +50,16 @@
   float: left;
   display: inline-block;
   width: 120px;
-  padding: 20px;
+  padding: 16px;
   height: 70px;
 }
-.add-to-cart img{
+.add-to-cart img {
   width: 60px;
     position: absolute;
     right: 1%;
     top: 1%;
 }
-.cart-count{
+.cart-count {
   position: absolute;
   right: 10px;
   top: 12px;
@@ -70,6 +70,10 @@
   height: 20px;
   border-radius: 50%;
   color: #fff;
+}
+button.remove-cart-btn {
+  background-color: rebeccapurple;
+  margin-top: 5px;
 }
 
 @keyframes App-logo-spin {

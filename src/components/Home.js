@@ -1,10 +1,8 @@
-function Home() {
+function Home(props) {
+    console.log("Home",props);
   return (
-    <div className="App">
-`     <div className="add-to-cart">
-        <img src="https://img.icons8.com/?size=50&id=23175&format=png" />
-       </div>`
-
+    <div>
+      
       <h2>Home Component</h2>
       <div className="cart-wrapper">
         <div className="img-wrapper item">
@@ -15,7 +13,12 @@ function Home() {
           <span>Price: $1000.00</span>
         </div>
         <div className="btn-wrapper item">
-            <button>Add To Cart</button>
+            <button onClick={()=>{
+               props.addToCartHandler({pice:1000,name:'i phone 11'}) 
+            }}>Add To Cart</button>
+            <button className="remove-cart-btn" onClick={()=>{
+               props.removeToCartHandler() 
+            }}>Remove To Cart</button>
         </div>
       </div>
     </div>
